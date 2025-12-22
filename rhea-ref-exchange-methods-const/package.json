@@ -1,0 +1,17 @@
+{
+  "name": "@sleet-js/ref-exchange-methods-const",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sleet-js/ref-exchange-methods-const.git"
+  },
+  "license": "MIT",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
