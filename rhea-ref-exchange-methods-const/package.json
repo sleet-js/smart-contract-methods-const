@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sleet-js/ref-exchange-methods-const.git"
+    "url": "https://github.com/sleet-js/smart-contract-methods-const.git"
   },
   "license": "MIT",
   "module": "index.ts",
