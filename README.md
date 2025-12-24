@@ -5,6 +5,15 @@ const's that conatin method names for near smart contracts for easy reuse.
 
 ---
 
+DEV
+- [x] bun init ft-methods-const
+- [x] bun init rhea-ref-exchange-methods-const
+- [ ] bun init greeting-contract-methods-const
+- [ ] bun init staking-contract-methods-const
+- [ ] bun init hos-contracts-methods-const
+
+---
+
 **@sleet-js/ft-methods-const**
 <br/>
 🐱 https://github.com/sleet-js/smart-contract-methods-const/tree/main/ft-methods-const
