@@ -32,9 +32,9 @@ This package conatins the consts for these smart contracts
 - [x] pool.near - ```factory_pool_methods_const```
 - [x] poolv1.near - ```factory_poolv1_methods_const```
 - [x] pool ("code_hash": "AjD4YJaXgpiRdiArqnzyDi7Bkr1gJms9Z2w7Ev5esTKB") - ```pool_methods_const```
-- [x] poolv1 - - ```poolv1_methods_const```
-- [ ] meta-pool.near (stnear)
-
+- [x] poolv1 (J1arLz48fgXcGyCPVckFwLnewNH6j1uw79thsvwqGYTY) - ```poolv1_methods_const```
+- [x] meta-pool.near (stnear)
+- [ ] linear-protocol.near (linear)
 
 ℹ️ if i missed a pool, or there is one you would like me to add let me know
 

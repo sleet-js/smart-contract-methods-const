@@ -11,6 +11,8 @@ DEV
 - [x] bun init greeting-contract-methods-const
 - [ ] bun init staking-pool-contract-methods-const
 - [ ] bun init hos-contracts-methods-const
+- meme cooking
+- 
 
 ---
 
