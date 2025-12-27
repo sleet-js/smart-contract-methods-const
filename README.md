@@ -8,8 +8,8 @@ const's that conatin method names for near smart contracts for easy reuse.
 DEV
 - [x] bun init ft-methods-const
 - [x] bun init rhea-ref-exchange-methods-const
-- [ ] bun init greeting-contract-methods-const
-- [ ] bun init staking-contract-methods-const
+- [x] bun init greeting-contract-methods-const
+- [ ] bun init staking-pool-contract-methods-const
 - [ ] bun init hos-contracts-methods-const
 
 ---
