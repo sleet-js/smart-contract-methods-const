@@ -31,8 +31,8 @@ bun add @sleet-js/staking-pool-contract-methods-const
 This package conatins the consts for these smart contracts
 - pool.near - ```factory_pool_methods_const```
 - poolv1.near - ```factory_poolv1_methods_const```
-- pool ("code_hash": "AjD4YJaXgpiRdiArqnzyDi7Bkr1gJms9Z2w7Ev5esTKB")
-- poolv1 
+- pool ("code_hash": "AjD4YJaXgpiRdiArqnzyDi7Bkr1gJms9Z2w7Ev5esTKB") - ```pool_methods_const```
+- poolv1 - - ```poolv1_methods_const```
 ---
 
 This project was created using `bun init` in bun v1.2.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
