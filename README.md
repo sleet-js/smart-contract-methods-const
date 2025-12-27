@@ -9,7 +9,7 @@ DEV
 - [x] bun init ft-methods-const
 - [x] bun init rhea-ref-exchange-methods-const
 - [x] bun init greeting-contract-methods-const
-- [ ] bun init staking-pool-contract-methods-const
+- [x] bun init staking-pool-contract-methods-const
 - [ ] bun init hos-contracts-methods-const
 - meme cooking
 - 
@@ -18,15 +18,15 @@ DEV
 
 **@sleet-js/ft-methods-const**
 <br/>
-🐱 https://github.com/sleet-js/smart-contract-methods-const/tree/main/ft-methods-const
-<br/>
 🎈 https://www.npmjs.com/package/@sleet-js/ft-methods-const
 
 **@sleet-js/ref-exchange-methods-const**
 <br/>
-🐱 https://github.com/sleet-js/smart-contract-methods-const/tree/main/rhea-ref-exchange-methods-const
+🎈 https://www.npmjs.com/package/@sleet-js/ref-exchange-methods-const
+
+**@sleet-js/staking-pool-contract-methods-const**
 <br/>
-🎈https://www.npmjs.com/package/@sleet-js/ref-exchange-methods-const
+🎈 https://www.npmjs.com/package/@sleet-js/staking-pool-contract-methods-const
 
 
 ---
