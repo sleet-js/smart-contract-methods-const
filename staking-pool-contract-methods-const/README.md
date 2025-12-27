@@ -29,8 +29,8 @@ bun add @sleet-js/staking-pool-contract-methods-const
 ```
 
 This package conatins the consts for these smart contracts
-- pool.near
-- poolv1.near
+- pool.near - ```factory_pool_methods_const```
+- poolv1.near - ```factory_poolv1_methods_const```
 - 
 
 ---
