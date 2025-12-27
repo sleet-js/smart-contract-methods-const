@@ -1,25 +1,28 @@
 // ================================================
 // ========== ref_exchange_methods_const ==========
 export const ref_exchange_methods_const = {
-  // Change methods (payable)
-  new: "new",
-  add_simple_pool: "add_simple_pool",
-  add_stable_swap_pool: "add_stable_swap_pool",
-  add_rated_swap_pool: "add_rated_swap_pool",
-  add_degen_swap_pool: "add_degen_swap_pool",
-  execute_actions_in_va: "execute_actions_in_va",
-  execute_actions: "execute_actions",
-  swap: "swap",
-  swap_by_output: "swap_by_output",
-  add_liquidity: "add_liquidity",
-  add_stable_liquidity: "add_stable_liquidity",
-  remove_liquidity: "remove_liquidity",
-  remove_liquidity_by_tokens: "remove_liquidity_by_tokens",
-  update_token_rate: "update_token_rate",
-  update_degen_token_price: "update_degen_token_price",
-
-  // Owner methods (payable)
+  upgrade: "upgrade",
+  register_tokens: "register_tokens",
+  unregister_tokens: "unregister_tokens",
+  token_register_of: "token_register_of",
+  withdraw: "withdraw",
+  exchange_callback_post_withdraw_near: "exchange_callback_post_withdraw_near",
+  exchange_callback_post_withdraw: "exchange_callback_post_withdraw",
+  get_lostfound_token: "get_lostfound_token",
+  list_lostfound_tokens: "list_lostfound_tokens",
+  claim_lostfound: "claim_lostfound",
+  mft_balance_of: "mft_balance_of",
+  mft_total_supply: "mft_total_supply",
+  mft_has_registered: "mft_has_registered",
+  mft_register: "mft_register",
+  mft_unregister: "mft_unregister",
+  mft_transfer: "mft_transfer",
+  mft_transfer_call: "mft_transfer_call",
+  mft_transfer_all_call: "mft_transfer_all_call",
+  mft_resolve_transfer: "mft_resolve_transfer",
+  mft_metadata: "mft_metadata",
   set_owner: "set_owner",
+  get_owner: "get_owner",
   retrieve_unmanaged_token: "retrieve_unmanaged_token",
   extend_guardians: "extend_guardians",
   remove_guardians: "remove_guardians",
@@ -40,29 +43,31 @@ export const ref_exchange_methods_const = {
   modify_total_fee: "modify_total_fee",
   remove_exchange_fee_liquidity: "remove_exchange_fee_liquidity",
   withdraw_owner_token: "withdraw_owner_token",
-
-  // Storage management (payable)
+  stable_swap_ramp_amp: "stable_swap_ramp_amp",
+  stable_swap_stop_ramp_amp: "stable_swap_stop_ramp_amp",
+  register_rated_token: "register_rated_token",
+  unregister_rated_token: "unregister_rated_token",
+  update_rated_token_extra_info: "update_rated_token_extra_info",
+  register_degen_token: "register_degen_token",
+  update_degen_token: "update_degen_token",
+  unregister_degen_token: "unregister_degen_token",
+  register_degen_oracle_config: "register_degen_oracle_config",
+  unregister_degen_oracle_config: "unregister_degen_oracle_config",
+  update_degen_oracle_config: "update_degen_oracle_config",
+  add_degen_pool_limit: "add_degen_pool_limit",
+  update_degen_pool_limit: "update_degen_pool_limit",
+  remove_pool_limit: "remove_pool_limit",
+  migrate: "migrate",
+  batch_update_degen_token_by_price_oracle_callback:
+    "batch_update_degen_token_by_price_oracle_callback",
+  batch_update_degen_token_by_pyth_oracle_callback:
+    "batch_update_degen_token_by_pyth_oracle_callback",
   storage_deposit: "storage_deposit",
   storage_withdraw: "storage_withdraw",
   storage_unregister: "storage_unregister",
+  storage_balance_bounds: "storage_balance_bounds",
   storage_balance_of: "storage_balance_of",
-
-  // Client echo limit methods (payable)
-  extend_client_echo_token_id_whitelist: "extend_client_echo_token_id_whitelist",
-  remove_client_echo_token_id_whitelist: "remove_client_echo_token_id_whitelist",
-  extend_client_echo_sender_id_whitelist: "extend_client_echo_sender_id_whitelist",
-  remove_client_echo_sender_id_whitelist: "remove_client_echo_sender_id_whitelist",
-  extend_secure_sender_whitelist: "extend_secure_sender_whitelist",
-  remove_secure_sender_whitelist: "remove_secure_sender_whitelist",
-
-  // Donation methods (payable)
-  donation_share: "donation_share",
-  donation_token: "donation_token",
-
-  // Lostfound methods (payable)
-  claim_lostfound: "claim_lostfound",
-
-  // View methods
+  ft_on_transfer: "ft_on_transfer",
   metadata: "metadata",
   get_guardians: "get_guardians",
   version: "version",
@@ -106,8 +111,10 @@ export const ref_exchange_methods_const = {
   list_degen_oracle_configs: "list_degen_oracle_configs",
   predict_add_rated_liquidity: "predict_add_rated_liquidity",
   predict_add_degen_liquidity: "predict_add_degen_liquidity",
-  predict_remove_rated_liquidity_by_tokens: "predict_remove_rated_liquidity_by_tokens",
-  predict_remove_degen_liquidity_by_tokens: "predict_remove_degen_liquidity_by_tokens",
+  predict_remove_rated_liquidity_by_tokens:
+    "predict_remove_rated_liquidity_by_tokens",
+  predict_remove_degen_liquidity_by_tokens:
+    "predict_remove_degen_liquidity_by_tokens",
   get_rated_return: "get_rated_return",
   get_degen_return: "get_degen_return",
   predict_swap_actions: "predict_swap_actions",
@@ -117,12 +124,57 @@ export const ref_exchange_methods_const = {
   get_pool_limit_by_pool_id: "get_pool_limit_by_pool_id",
   get_pool_limit_paged: "get_pool_limit_paged",
   batch_views: "batch_views",
-
-  // Additional view methods
+  get_unit_lpt_assets: "get_unit_lpt_assets",
+  shadow_action: "shadow_action",
+  on_burrow_liquidation: "on_burrow_liquidation",
+  callback_on_shadow: "callback_on_shadow",
+  callback_on_burrow_liquidation: "callback_on_burrow_liquidation",
+  register_pool_twap_record: "register_pool_twap_record",
+  unregister_pool_twap_record: "unregister_pool_twap_record",
+  modify_cumulative_info_record_interval_sec:
+    "modify_cumulative_info_record_interval_sec",
+  sync_pool_twap_record: "sync_pool_twap_record",
+  get_pool_twap_info_view: "get_pool_twap_info_view",
+  list_pool_twap_info_view: "list_pool_twap_info_view",
+  get_unit_share_twap_token_amounts: "get_unit_share_twap_token_amounts",
+  get_unit_share_token_amounts: "get_unit_share_token_amounts",
+  extend_client_echo_token_id_whitelist:
+    "extend_client_echo_token_id_whitelist",
+  remove_client_echo_token_id_whitelist:
+    "remove_client_echo_token_id_whitelist",
   get_client_echo_token_id_whitelist: "get_client_echo_token_id_whitelist",
+  extend_client_echo_sender_id_whitelist:
+    "extend_client_echo_sender_id_whitelist",
+  remove_client_echo_sender_id_whitelist:
+    "remove_client_echo_sender_id_whitelist",
   get_client_echo_sender_id_whitelist: "get_client_echo_sender_id_whitelist",
+  extend_secure_sender_whitelist: "extend_secure_sender_whitelist",
+  remove_secure_sender_whitelist: "remove_secure_sender_whitelist",
   get_secure_sender_whitelist: "get_secure_sender_whitelist",
+  donation_share: "donation_share",
+  donation_token: "donation_token",
+  new: "new",
+  add_simple_pool: "add_simple_pool",
+  add_stable_swap_pool: "add_stable_swap_pool",
+  add_rated_swap_pool: "add_rated_swap_pool",
+  add_degen_swap_pool: "add_degen_swap_pool",
+  execute_actions_in_va: "execute_actions_in_va",
+  execute_actions: "execute_actions",
+  swap: "swap",
+  swap_by_output: "swap_by_output",
+  add_liquidity: "add_liquidity",
+  add_stable_liquidity: "add_stable_liquidity",
+  remove_liquidity: "remove_liquidity",
+  remove_liquidity_by_tokens: "remove_liquidity_by_tokens",
+  update_token_rate: "update_token_rate",
+  update_token_rate_callback: "update_token_rate_callback",
+  batch_update_degen_token_price: "batch_update_degen_token_price",
+  update_degen_token_price: "update_degen_token_price",
+  update_degen_token_price_callback: "update_degen_token_price_callback",
 } as const;
 // ================================================
-export const ref_mainnet_contractId_const = "v2.ref-finance.near"
-export const ref_testnet_contractId_const = "ref-finance-101.testnet"
+export const ref_mainnet_contractId_const = "v2.ref-finance.near";
+export const ref_testnet_contractId_const = "ref-finance-101.testnet";
+// ================================================
+// ================================================
+// copyright 2025 by sleet.near
