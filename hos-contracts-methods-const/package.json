@@ -1,5 +1,5 @@
 {
-  "name": "hos-contracts-methods-const",
+  "name": "@sleet-js/hos-contracts-methods-const",
   "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
