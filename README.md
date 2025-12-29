@@ -11,8 +11,9 @@ DEV
 - [x] bun init greeting-contract-methods-const
 - [x] bun init staking-pool-contract-methods-const
 - [x] bun init hos-contracts-methods-const
-- meme cooking
-- social db
+- [ ] meme cooking
+- [ ] social db
+- [ ] wrap.near
 
 
 ---
