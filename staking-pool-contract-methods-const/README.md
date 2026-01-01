@@ -35,6 +35,7 @@ This package conatins the consts for these smart contracts
 - [x] poolv1 (J1arLz48fgXcGyCPVckFwLnewNH6j1uw79thsvwqGYTY) - ```poolv1_methods_const```
 - [x] meta-pool.near (stnear) - ```meta_pool_methods_const```
 - [x] linear-protocol.near (linear) - ```linear_protocol_methods_const```
+- [ ] rnear
 
 ℹ️ if i missed a pool, or there is one you would like me to add let me know
 
