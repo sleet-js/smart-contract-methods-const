@@ -34,6 +34,10 @@ import
 import { berryclub_contract_methods_const } from '@sleet-js/berryclub-contract-methods-const';
 ```
 
+berryclub contracts (currently this package just has the const for the main one)
+- berryclub.ek.near
+- farm.berryclub.ek.near
+- bananaswap.near
 
 ---
 
