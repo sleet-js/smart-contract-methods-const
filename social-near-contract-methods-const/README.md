@@ -1,5 +1,5 @@
 # social-near-contract-methods-const
-const's for a simple near greeting smart contract methods
+const's for social.near smart contract methods
 
 
 ℹ️ can be used with any near api js option.
@@ -34,11 +34,6 @@ import
 import { social_near_methods_const } from '@sleet-js/social-near-contract-methods-const';
 ```
 
-consts
-```ts
-greeting_methods_const.set_greeting
-greeting_methods_const.get_greeting
-```
 
 
 ---
