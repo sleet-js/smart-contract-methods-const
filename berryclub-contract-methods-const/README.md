@@ -1,15 +1,41 @@
 # berryclub-contract-methods-const
+const's for berryclub.ek.near smart contract methods
 
-To install dependencies:
 
+ℹ️ can be used with any near api js option.
+
+
+---
+
+
+### DEV
+to devlop and publish this package
 ```bash
 bun install
-```
-
-To run:
-
-```bash
 bun run index.ts
+bun build index.ts
+bun publish --dry-run
+bunx npm login
+bun publish --access public
 ```
 
-This project was created using `bun init` in bun v1.2.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+---
+
+### HOW TO USE
+
+add
+```sh
+npm i @sleet-js/berryclub-contract-methods-const
+bun add @sleet-js/berryclub-contract-methods-const
+```
+
+import
+```js
+import { berryclub_contract_methods_const } from '@sleet-js/berryclub-contract-methods-const';
+```
+
+
+---
+
+
+copyright 2026 by sleet.near
