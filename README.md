@@ -13,8 +13,8 @@ DEV - bun init
 - [x] hos-contracts-methods-const
 - [x] wrap-near-contract-methods-const
 - [x] berryclub-contract-methods-const
+- [x] social-near-contract-methods-const
 - [ ] meme-cooking-contract-methods-const
-- [ ] social-near-contract-methods-const
 - [ ] tld-near-contract-methods-const
 
 
