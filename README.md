@@ -11,10 +11,10 @@ DEV - bun init
 - [x] rhea-ref-exchange-methods-const
 - [x] staking-pool-contract-methods-const
 - [x] hos-contracts-methods-const
+- [x] wrap-near-contract-methods-const
+- [x] berryclub-contract-methods-const
 - [ ] meme-cooking-contract-methods-const
 - [ ] social-near-contract-methods-const
-- [ ] wrap-near-contract-methods-const
-- [ ] berryclub-contract-methods-const
 - [ ] tld-near-contract-methods-const
 
 
