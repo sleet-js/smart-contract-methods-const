@@ -5,30 +5,17 @@ const's that conatin method names for near smart contracts for easy reuse.
 
 ---
 
-DEV
-- [x] bun init ft-methods-const
-- [x] bun init rhea-ref-exchange-methods-const
-- [x] bun init greeting-contract-methods-const
-- [x] bun init staking-pool-contract-methods-const
-- [x] bun init hos-contracts-methods-const
-- [ ] meme cooking
-- [ ] social db
-- [ ] wrap.near
+DEV - bun init
+- [x] greeting-contract-methods-const
+- [x] ft-methods-const
+- [x] rhea-ref-exchange-methods-const
+- [x] staking-pool-contract-methods-const
+- [x] hos-contracts-methods-const
+- [ ] meme-cooking-contract-methods-const
+- [ ] social-near-contract-methods-const
+- [ ] wrap-near-contract-methods-const
+- [ ] berryclub-contract-methods-const
 
-
----
-
-**@sleet-js/ft-methods-const**
-<br/>
-🎈 https://www.npmjs.com/package/@sleet-js/ft-methods-const
-
-**@sleet-js/ref-exchange-methods-const**
-<br/>
-🎈 https://www.npmjs.com/package/@sleet-js/ref-exchange-methods-const
-
-**@sleet-js/staking-pool-contract-methods-const**
-<br/>
-🎈 https://www.npmjs.com/package/@sleet-js/staking-pool-contract-methods-const
 
 
 ---
