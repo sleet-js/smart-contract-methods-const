@@ -26,12 +26,12 @@ bun publish --access public
 add
 ```sh
 npm i @sleet-js/social-near-contract-methods-const
-bun add @sleet-js/greeting-contract-methods-const
+bun add @sleet-js/social-near-contract-methods-const
 ```
 
 import
 ```js
-import { greeting_methods_const } from '@sleet-js/greeting-contract-methods-const';
+import { social_near_methods_const } from '@sleet-js/social-near-contract-methods-const';
 ```
 
 consts
