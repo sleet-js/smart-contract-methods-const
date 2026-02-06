@@ -1,5 +1,12 @@
 {
-  "name": "wrap-near-contract-methods-const",
+  "name": "@sleet-js/wrap-near-contract-methods-const",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sleet-js/smart-contract-methods-const.git"
+  },
+  "homepage": "https://sleet-js.near.page",
+  "license": "MIT",
   "module": "index.ts",
   "type": "module",
   "private": true,

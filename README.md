@@ -15,6 +15,7 @@ DEV - bun init
 - [ ] social-near-contract-methods-const
 - [ ] wrap-near-contract-methods-const
 - [ ] berryclub-contract-methods-const
+- [ ] tld-near-contract-methods-const
 
 
 
