@@ -16,6 +16,7 @@ DEV - bun init
 - [x] social-near-contract-methods-const
 - [ ] meme-cooking-contract-methods-const
 - [ ] tld-near-contract-methods-const
+- [ ] warofcards-contracts-methods-const
 
 
 
