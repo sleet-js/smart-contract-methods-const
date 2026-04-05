@@ -18,7 +18,8 @@
     "build": "bun run --filter '*' build",
     "build:all": "bun run --filter '*' build",
     "version:sync": "bun run scripts/version-sync.ts",
-    "version:dry-run": "bun run scripts/version-sync.ts --dry-run"
+    "version:dry-run": "bun run scripts/version-sync.ts --dry-run",
+    "publish:all": "for pkg in berryclub-contract-methods-const ft-methods-const greeting-contract-methods-const hos-contracts-methods-const meme-cooking-contract-methods-const rhea-ref-exchange-methods-const social-near-contract-methods-const staking-pool-contract-methods-const wrap-near-contract-methods-const; do echo \"\\n📦 Publishing $pkg...\"; cd \"$pkg\" && bun publish --access public && cd ..; done"
   },
   "devDependencies": {
     "@types/bun": "latest",

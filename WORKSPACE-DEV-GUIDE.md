@@ -72,6 +72,7 @@ bun run --filter './berryclub-contract-methods-const' build
 To publish all packages:
 
 ```bash
+bunx npm login
 bun run publish:all
 ```
 
