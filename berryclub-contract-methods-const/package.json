@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/berryclub-contract-methods-const",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "TypeScript constants for berryclub.ek.near smart contract methods, including pixel drawing, FT operations, and account management",
   "repository": {
     "type": "git",

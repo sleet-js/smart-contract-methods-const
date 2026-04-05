@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/meme-cooking-contract-methods-const",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "TypeScript constants for meme cooking smart contract methods",
   "repository": {
     "type": "git",

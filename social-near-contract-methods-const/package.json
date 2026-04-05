@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/social-near-contract-methods-const",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "TypeScript constants for Social NEAR smart contract methods including data storage, accounts, and permissions",
   "repository": {
     "type": "git",

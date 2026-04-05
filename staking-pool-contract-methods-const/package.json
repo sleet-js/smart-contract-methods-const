@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/staking-pool-contract-methods-const",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "TypeScript constants for NEAR staking pool contracts including factory pools, meta-pools, and linear protocol",
   "repository": {
     "type": "git",
