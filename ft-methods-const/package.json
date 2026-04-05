@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/ft-methods-const",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "TypeScript constants for NEAR Fungible Token (FT) standard smart contract methods",
   "repository": {
     "type": "git",

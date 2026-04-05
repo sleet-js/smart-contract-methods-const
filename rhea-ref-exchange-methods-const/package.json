@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/ref-exchange-methods-const",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "TypeScript constants for Ref Exchange (ref-finance) smart contract methods including pools, liquidity, swaps, and referrals",
   "repository": {
     "type": "git",

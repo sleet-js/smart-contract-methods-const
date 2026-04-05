@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/hos-contracts-methods-const",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "TypeScript constants for HOS DAO smart contracts including venear, voting, and lockup contracts",
   "repository": {
     "type": "git",

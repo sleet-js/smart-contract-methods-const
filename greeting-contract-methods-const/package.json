@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/greeting-contract-methods-const",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "TypeScript constants for greeting smart contract methods (set_greeting, get_greeting)",
   "repository": {
     "type": "git",

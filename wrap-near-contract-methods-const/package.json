@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/wrap-near-contract-methods-const",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "TypeScript constants for wrapNEAR smart contract methods including NEAR deposit/withdrawal and FT operations",
   "repository": {
     "type": "git",
