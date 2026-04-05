@@ -22,7 +22,7 @@
     "publish:all": "for pkg in berryclub-contract-methods-const ft-methods-const greeting-contract-methods-const hos-contracts-methods-const meme-cooking-contract-methods-const rhea-ref-exchange-methods-const social-near-contract-methods-const staking-pool-contract-methods-const wrap-near-contract-methods-const; do echo \"\\n📦 Publishing $pkg...\"; cd \"$pkg\" && bun publish --access public && cd ..; done"
   },
   "devDependencies": {
-    "@types/bun": "latest",
-    "typescript": "^5"
+    "@types/bun": "^1.3.11",
+    "typescript": "^6.0.2"
   }
 }

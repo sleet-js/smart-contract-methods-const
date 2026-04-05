@@ -6,97 +6,97 @@
       "name": "smart-contract-methods-const",
       "devDependencies": {
         "@types/bun": "latest",
-        "typescript": "^5",
+        "typescript": "latest",
       },
     },
     "berryclub-contract-methods-const": {
       "name": "@sleet-js/berryclub-contract-methods-const",
-      "version": "0.0.1",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
     "ft-methods-const": {
       "name": "@sleet-js/ft-methods-const",
-      "version": "0.0.5",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
     "greeting-contract-methods-const": {
       "name": "@sleet-js/greeting-contract-methods-const",
-      "version": "0.0.1",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
     "hos-contracts-methods-const": {
       "name": "@sleet-js/hos-contracts-methods-const",
-      "version": "0.0.1",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
     "meme-cooking-contract-methods-const": {
       "name": "@sleet-js/meme-cooking-contract-methods-const",
-      "version": "0.0.1",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
     "rhea-ref-exchange-methods-const": {
       "name": "@sleet-js/ref-exchange-methods-const",
-      "version": "0.0.3",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
     "social-near-contract-methods-const": {
       "name": "@sleet-js/social-near-contract-methods-const",
-      "version": "0.0.1",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
     "staking-pool-contract-methods-const": {
       "name": "@sleet-js/staking-pool-contract-methods-const",
-      "version": "0.0.1",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
     "wrap-near-contract-methods-const": {
       "name": "@sleet-js/wrap-near-contract-methods-const",
-      "version": "0.0.1",
+      "version": "0.0.6",
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.3.11",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^6.0.2",
       },
     },
   },
@@ -125,7 +125,7 @@
 
     "bun-types": ["bun-types@1.3.11", "", { "dependencies": { "@types/node": "*" } }, "sha512-1KGPpoxQWl9f6wcZh57LvrPIInQMn2TQ7jsgxqpRzg+l0QPOFvJVH7HmvHo/AiPgwXy+/Thf6Ov3EdVn1vOabg=="],
 
-    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+    "typescript": ["typescript@6.0.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ=="],
 
     "undici-types": ["undici-types@7.18.2", "", {}, "sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w=="],
   }
