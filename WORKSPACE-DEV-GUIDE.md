@@ -160,16 +160,70 @@ The `package.json` should include:
 
 ## Version Management
 
-Each package maintains its own version number. When publishing updates:
+All packages are kept in sync using the version sync script. This ensures every package shares the same version number.
+
+### Syncing Versions
+
+**Always preview first with `--dry-run`:**
 
 ```bash
-# Manually update version in package.json
-# Or use npm version commands:
+# Preview what would happen (no files modified)
+bun run version:dry-run
+
+# Sync all packages to next patch version (e.g., 0.0.5 → 0.0.6)
+bun run version:sync
+
+# Sync to next minor version (e.g., 0.0.5 → 0.1.0)
+bun run version:sync minor
+
+# Sync to next major version (e.g., 0.0.5 → 1.0.0)
+bun run version:sync major
+
+# Set all packages to a specific version
+bun run version:sync 2.0.0
+```
+
+### Version Sync Workflow
+
+1. **Preview the changes:**
+   ```bash
+   bun run version:dry-run
+   ```
+
+2. **Apply the version bump:**
+   ```bash
+   bun run version:sync
+   ```
+
+3. **Commit the changes:**
+   ```bash
+   git add .
+   git commit -m "chore: sync all packages to v0.0.6"
+   ```
+
+4. **Rebuild all packages:**
+   ```bash
+   bun run build
+   ```
+
+5. **Publish each package individually** from its directory:
+   ```bash
+   cd berryclub-contract-methods-const
+   bun publish --access public
+   ```
+
+### Manual Version Updates (alternative)
+
+If you need to version a single package independently:
+
+```bash
 cd berryclub-contract-methods-const
 npm version patch  # 0.0.1 -> 0.0.2
 npm version minor  # 0.0.1 -> 0.1.0
 npm version major  # 0.0.1 -> 1.0.0
 ```
+
+---
 
 ## Notes
 

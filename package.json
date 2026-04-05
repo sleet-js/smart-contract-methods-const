@@ -16,7 +16,9 @@
   ],
   "scripts": {
     "build": "bun run --filter '*' build",
-    "build:all": "bun run --filter '*' build"
+    "build:all": "bun run --filter '*' build",
+    "version:sync": "bun run scripts/version-sync.ts",
+    "version:dry-run": "bun run scripts/version-sync.ts --dry-run"
   },
   "devDependencies": {
     "@types/bun": "latest",
