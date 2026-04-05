@@ -16,7 +16,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "bun build src/index.ts --outdir dist --target bun && tsc --emitDeclarationOnly --outDir dist",
+    "clean": "rm -rf dist",
+    "build": "tsc --outDir dist",
     "prepublishOnly": "bun run build"
   },
   "devDependencies": {

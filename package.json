@@ -15,6 +15,7 @@
     "wrap-near-contract-methods-const"
   ],
   "scripts": {
+    "clean": "bun run --filter '*' clean",
     "build": "bun run --filter '*' build",
     "build:all": "bun run --filter '*' build",
     "version:sync": "bun run scripts/version-sync.ts",
