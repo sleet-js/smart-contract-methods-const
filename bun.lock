@@ -1,0 +1,132 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "smart-contract-methods-const",
+      "devDependencies": {
+        "@types/bun": "latest",
+        "typescript": "^5",
+      },
+    },
+    "berryclub-contract-methods-const": {
+      "name": "@sleet-js/berryclub-contract-methods-const",
+      "version": "0.0.1",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "ft-methods-const": {
+      "name": "@sleet-js/ft-methods-const",
+      "version": "0.0.5",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "greeting-contract-methods-const": {
+      "name": "@sleet-js/greeting-contract-methods-const",
+      "version": "0.0.1",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "hos-contracts-methods-const": {
+      "name": "@sleet-js/hos-contracts-methods-const",
+      "version": "0.0.1",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "meme-cooking-contract-methods-const": {
+      "name": "@sleet-js/meme-cooking-contract-methods-const",
+      "version": "0.0.1",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "rhea-ref-exchange-methods-const": {
+      "name": "@sleet-js/ref-exchange-methods-const",
+      "version": "0.0.3",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "social-near-contract-methods-const": {
+      "name": "@sleet-js/social-near-contract-methods-const",
+      "version": "0.0.1",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "staking-pool-contract-methods-const": {
+      "name": "@sleet-js/staking-pool-contract-methods-const",
+      "version": "0.0.1",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+    "wrap-near-contract-methods-const": {
+      "name": "@sleet-js/wrap-near-contract-methods-const",
+      "version": "0.0.1",
+      "devDependencies": {
+        "@types/bun": "latest",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+  },
+  "packages": {
+    "@sleet-js/berryclub-contract-methods-const": ["@sleet-js/berryclub-contract-methods-const@workspace:berryclub-contract-methods-const"],
+
+    "@sleet-js/ft-methods-const": ["@sleet-js/ft-methods-const@workspace:ft-methods-const"],
+
+    "@sleet-js/greeting-contract-methods-const": ["@sleet-js/greeting-contract-methods-const@workspace:greeting-contract-methods-const"],
+
+    "@sleet-js/hos-contracts-methods-const": ["@sleet-js/hos-contracts-methods-const@workspace:hos-contracts-methods-const"],
+
+    "@sleet-js/meme-cooking-contract-methods-const": ["@sleet-js/meme-cooking-contract-methods-const@workspace:meme-cooking-contract-methods-const"],
+
+    "@sleet-js/ref-exchange-methods-const": ["@sleet-js/ref-exchange-methods-const@workspace:rhea-ref-exchange-methods-const"],
+
+    "@sleet-js/social-near-contract-methods-const": ["@sleet-js/social-near-contract-methods-const@workspace:social-near-contract-methods-const"],
+
+    "@sleet-js/staking-pool-contract-methods-const": ["@sleet-js/staking-pool-contract-methods-const@workspace:staking-pool-contract-methods-const"],
+
+    "@sleet-js/wrap-near-contract-methods-const": ["@sleet-js/wrap-near-contract-methods-const@workspace:wrap-near-contract-methods-const"],
+
+    "@types/bun": ["@types/bun@1.3.11", "", { "dependencies": { "bun-types": "1.3.11" } }, "sha512-5vPne5QvtpjGpsGYXiFyycfpDF2ECyPcTSsFBMa0fraoxiQyMJ3SmuQIGhzPg2WJuWxVBoxWJ2kClYTcw/4fAg=="],
+
+    "@types/node": ["@types/node@25.5.2", "", { "dependencies": { "undici-types": "~7.18.0" } }, "sha512-tO4ZIRKNC+MDWV4qKVZe3Ql/woTnmHDr5JD8UI5hn2pwBrHEwOEMZK7WlNb5RKB6EoJ02gwmQS9OrjuFnZYdpg=="],
+
+    "bun-types": ["bun-types@1.3.11", "", { "dependencies": { "@types/node": "*" } }, "sha512-1KGPpoxQWl9f6wcZh57LvrPIInQMn2TQ7jsgxqpRzg+l0QPOFvJVH7HmvHo/AiPgwXy+/Thf6Ov3EdVn1vOabg=="],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "undici-types": ["undici-types@7.18.2", "", {}, "sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w=="],
+  }
+}

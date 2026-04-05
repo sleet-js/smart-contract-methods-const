@@ -10,11 +10,10 @@ const's for near ft's smart contract methods
 
 
 ### DEV
-to devlop and publish this package
+to develop and publish this package
 ```bash
 bun install
-bun run index.ts
-bun build index.ts
+bun run build
 bun publish --dry-run
 bunx npm login
 bun publish --access public

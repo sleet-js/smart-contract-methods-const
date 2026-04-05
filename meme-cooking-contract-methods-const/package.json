@@ -1,8 +1,24 @@
 {
-  "name": "meme-cooking-contract-methods-const",
+  "name": "@sleet-js/meme-cooking-contract-methods-const",
+  "version": "0.0.1",
+  "description": "TypeScript constants for meme cooking smart contract methods",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sleet-js/smart-contract-methods-const.git"
+  },
+  "homepage": "https://sleet-js.near.page",
+  "license": "MIT",
+  "main": "dist/index.js",
   "module": "index.ts",
+  "types": "dist/index.d.ts",
   "type": "module",
-  "private": true,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target bun",
+    "prepublishOnly": "bun run build"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

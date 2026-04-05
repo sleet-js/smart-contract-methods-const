@@ -1,14 +1,24 @@
 {
   "name": "@sleet-js/ft-methods-const",
   "version": "0.0.5",
+  "description": "TypeScript constants for NEAR Fungible Token (FT) standard smart contract methods",
   "repository": {
     "type": "git",
     "url": "https://github.com/sleet-js/smart-contract-methods-const.git"
   },
   "homepage": "https://sleet-js.near.page",
   "license": "MIT",
+  "main": "dist/index.js",
   "module": "index.ts",
+  "types": "dist/index.d.ts",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target bun",
+    "prepublishOnly": "bun run build"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

@@ -1,15 +1,38 @@
 # meme-cooking-contract-methods-const
+TypeScript constants for meme cooking smart contract methods
 
-To install dependencies:
+ℹ️ can be used with any near api js option.
 
+
+---
+
+
+### DEV
+to develop and publish this package
 ```bash
 bun install
+bun run build
+bun publish --dry-run
+bunx npm login
+bun publish --access public
 ```
 
-To run:
+---
 
-```bash
-bun run index.ts
+### HOW TO USE
+
+add
+```sh
+npm i @sleet-js/meme-cooking-contract-methods-const
+bun add @sleet-js/meme-cooking-contract-methods-const
 ```
 
-This project was created using `bun init` in bun v1.2.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+import
+```js
+import { meme_cooking_methods_const } from '@sleet-js/meme-cooking-contract-methods-const';
+```
+
+
+---
+
+copyright 2026 by sleet.near

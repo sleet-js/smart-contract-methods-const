@@ -1,0 +1,25 @@
+{
+  "name": "smart-contract-methods-const",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo containing NEAR smart contract method constants packages",
+  "workspaces": [
+    "berryclub-contract-methods-const",
+    "ft-methods-const",
+    "greeting-contract-methods-const",
+    "hos-contracts-methods-const",
+    "meme-cooking-contract-methods-const",
+    "rhea-ref-exchange-methods-const",
+    "social-near-contract-methods-const",
+    "staking-pool-contract-methods-const",
+    "wrap-near-contract-methods-const"
+  ],
+  "scripts": {
+    "build": "bun run --filter '*' build",
+    "build:all": "bun run --filter '*' build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
