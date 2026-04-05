@@ -53,23 +53,7 @@ bun publish --access public
 2. Add it to the `workspaces` array in root `package.json`
 3. Run `bun install` from root
 
-Each package needs this configuration:
-
-```json
-{
-  "main": "dist/index.js",
-  "module": "index.ts",
-  "types": "dist/index.d.ts",
-  "files": ["dist"],
-  "scripts": {
-    "clean": "rm -rf dist",
-    "build": "tsc --outDir dist",
-    "prepublishOnly": "bun run build"
-  }
-}
-```
-
-For packages with `src/` structure, set `"rootDir": "src"` and `"include": ["src/index.ts"]` in tsconfig.
+For packages with `src/` structure, add `"rootDir": "src"` to tsconfig.
 
 ## Workflow
 
