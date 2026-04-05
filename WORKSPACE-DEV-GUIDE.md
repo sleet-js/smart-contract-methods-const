@@ -52,8 +52,7 @@ bun publish --access public
 1. Create a new directory with `package.json` and `index.ts` (or `src/index.ts`)
 2. Add it to the `workspaces` array in root `package.json`
 3. Run `bun install` from root
-
-For packages with `src/` structure, add `"rootDir": "src"` to tsconfig.
+4. Configure `package.json` and `tsconfig.json` matching an existing package
 
 ## Workflow
 
