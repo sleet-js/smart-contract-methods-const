@@ -12,7 +12,8 @@
     "rhea-ref-exchange-methods-const",
     "social-near-contract-methods-const",
     "staking-pool-contract-methods-const",
-    "wrap-near-contract-methods-const"
+    "wrap-near-contract-methods-const",
+    "pumpopoly-contract-methods-const"
   ],
   "scripts": {
     "clean": "bun run --filter '*' clean",

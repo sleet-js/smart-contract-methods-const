@@ -1,0 +1,29 @@
+{
+  "name": "@sleet-js/pumpopoly-contract-methods-const",
+  "version": "0.0.1",
+  "description": "TypeScript constants for NEAR Pumpopoly contracts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sleet-js/smart-contract-methods-const.git"
+  },
+  "homepage": "https://sleet-js.near.page",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc --outDir dist",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.11"
+  },
+  "peerDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
