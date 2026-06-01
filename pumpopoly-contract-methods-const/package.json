@@ -1,6 +1,6 @@
 {
   "name": "@sleet-js/pumpopoly-contract-methods-const",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TypeScript constants for NEAR Pumpopoly contracts",
   "repository": {
     "type": "git",
