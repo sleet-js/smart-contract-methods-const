@@ -1,3 +1,5 @@
+// ====================================
+// ===== world_pumpopoly_methods_const =====
 export const world_pumpopoly_methods_const = {
   view: [
     "metadata",
