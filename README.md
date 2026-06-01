@@ -15,6 +15,7 @@ DEV - bun init
 - [x] berryclub-contract-methods-const
 - [x] social-near-contract-methods-const
 - [x] meme-cooking-contract-methods-const
+- [ ] pumpopoly-contract-methods-const
 - [ ] tld-near-contract-methods-const
 - [ ] warofcards-contracts-methods-const
 
