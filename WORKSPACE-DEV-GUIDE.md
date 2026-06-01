@@ -6,6 +6,7 @@ Bun workspace monorepo for NEAR smart contract method constants packages.
 
 ```bash
 bun install
+bun update --latest
 bun run build
 bun run clean
 ```
