@@ -29,6 +29,8 @@ bun add @sleet-js/pumpopoly-contract-methods-const
 
 This package conatins the consts for these smart contracts
 - [x] world.pumpopoly.near - ```world_pumpopoly_methods_const```
+- [ ] nft.pumpopoly.near
+- [ ] exchequer.pumpopoly.near
 
 ℹ️ if i missed a contract, or there is one you would like me to add let me know
 
